@@ -1,0 +1,10 @@
+Die üblichen Maße dieser Ausführung sind:
+
+Teil				|	Breite		|	Höhe
+------------------------------------------------------------------------
+Ganze Platine			|	35,4 mm		|	33,5 mm
+Tatsächlich leuchtende Fläche	|	29,42 mm	|	14,70 mm
+Displayglas ungefähr		|	34,5 mm		|	23 mm
+------------------------------------------------------------------------
+Befestigungsbohrungen		ca. 3,0 mm Durchmesser	M3
+Stiftleiste	2,54 mm Raster	4-polig
