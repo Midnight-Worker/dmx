@@ -1,0 +1,6 @@
+COM11 	esp32c6
+
+COM21	IR-Sender blau
+COM22	DMX Atmega
+COM23	DMX USB
+COM24	IR-Empfänger rot
