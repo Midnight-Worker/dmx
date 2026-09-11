@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:avr:nano:cpu=atmega328",
+  "hardwareFolders": "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8,C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8",
+  "otherLibrariesFolders": "C:\\Users\\maikt\\Documents\\Arduino\\libraries",
+  "sketchLocation": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo"
+}

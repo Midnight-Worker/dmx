@@ -1,0 +1,21 @@
+#include <SoftwareSerial.h>
+
+// RX, TX
+SoftwareSerial debugSerial(12, 11);
+
+void setup()
+{
+    debugSerial.begin(9600);
+    debugSerial.println("Hallo Welt!");
+    debugSerial.println("ATmega328P ist gestartet.");
+}
+
+void loop()
+{
+    static unsigned long counter = 0;
+
+    debugSerial.print("Zaehler: ");
+    debugSerial.println(counter++);
+
+    delay(1000);
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "added_include_path": "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino"
+  },
+  {
+    "added_include_path": "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\eightanaloginputs"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_NANO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\eightanaloginputs",
+        "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SoftwareSerial.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_NANO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\eightanaloginputs",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\sketch\\letsgo.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+      "depfile_path": "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_NANO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\eightanaloginputs",
+        "-IC:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "C:\\Users\\maikt\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\maikt\\Desktop\\dmx\\stage\\letsgo\\build\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
