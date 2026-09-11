@@ -1,7 +1,7 @@
 import serial
 
 ser = serial.Serial(
-    "COM16",
+    "COM6",
     250000,
     bytesize=8,
     parity=serial.PARITY_NONE,

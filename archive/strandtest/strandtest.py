@@ -8,7 +8,7 @@ from tkinter import messagebox
 # Einstellungen
 # ------------------------------------------------------------
 
-PORT = "COM15"
+PORT = "/dev/ttyUSB0"
 FPS = 30
 
 MASTER_CHANNEL = 1

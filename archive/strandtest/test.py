@@ -1,7 +1,7 @@
 import serial
 import time
 
-PORT = "COM15"
+PORT = "COM14"
 
 ser = serial.Serial(
     port=PORT,
@@ -17,9 +17,9 @@ frame = bytearray(7)
 
 frame[0] = 0     # DMX Startcode
 
-frame[1] = 0   # Kanal 1: Rot
-frame[2] = 0    # Kanal 2: Grün
-frame[3] = 0     # Kanal 3: Blau
+frame[1] = 255   # Kanal 1: Rot
+frame[2] = 255    # Kanal 2: Grün
+frame[3] = 255     # Kanal 3: Blau
 frame[4] = 0     # Kanal 4
 frame[5] = 0     # Kanal 5
 frame[6] = 0     # Kanal 6

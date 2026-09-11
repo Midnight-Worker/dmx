@@ -1,7 +1,7 @@
 import serial
 import time
 
-PORT = "COM15"
+PORT = "COM19"
 
 ser = serial.Serial(
     PORT,
