@@ -1,0 +1,5 @@
+COM18   DMX Atmega
+COM19   IR-Sender blue
+COM20   DMX USB RS485
+COM21   IR-Empfänger red
+COM22   ESP32 I2C-Master  
