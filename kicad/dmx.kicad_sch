@@ -3306,6 +3306,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "SCL"
 		(exclude_from_sim no)
@@ -3474,22 +3589,34 @@
 		(uuid "025cd7f9-d1a1-4540-a2e8-e16d494fe25b")
 	)
 	(junction
+		(at 24.13 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11479b76-2472-42fe-b0e0-cd5b688e7e54")
+	)
+	(junction
 		(at 90.17 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29b97eed-4b72-4172-9d3e-3d0ab6f159e1")
 	)
 	(junction
+		(at 99.06 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fda1e81-1f7c-4935-888a-2ed774aa9b93")
+	)
+	(junction
+		(at 24.13 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66757dd4-1cfc-4976-affa-d7e1700976ca")
+	)
+	(junction
 		(at 50.8 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e7ca4cf-4b0e-4020-a167-64f08a35439f")
-	)
-	(junction
-		(at 118.11 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d355bda-25b2-4034-b74a-a75accd6f204")
 	)
 	(junction
 		(at 73.66 39.37)
@@ -3510,10 +3637,38 @@
 		(uuid "bc92be41-ecaf-43ec-9006-aaadd1da73fb")
 	)
 	(junction
+		(at 114.3 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8eb019b-0428-4527-abf5-06cf99e4a496")
+	)
+	(junction
 		(at 109.22 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ded2de97-cabd-4a4a-8be4-99e8f1cf1a6c")
+	)
+	(no_connect
+		(at 123.19 34.29)
+		(uuid "37bef096-bd9e-4cd0-a3da-ce9724ffdb48")
+	)
+	(no_connect
+		(at 66.04 73.66)
+		(uuid "ac607863-338e-47a9-b12b-1eae0844541e")
+	)
+	(no_connect
+		(at 113.03 34.29)
+		(uuid "f3e8a295-06ae-4b77-b28b-815f3b327daf")
+	)
+	(wire
+		(pts
+			(xy 100.33 69.85) (xy 100.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d525e2-4b65-4054-bc77-c06ecab976ff")
 	)
 	(wire
 		(pts
@@ -3547,16 +3702,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 34.29) (xy 115.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14569371-0a08-4672-b845-333c2cd1a647")
-	)
-	(wire
-		(pts
 			(xy 35.56 55.88) (xy 33.02 55.88)
 		)
 		(stroke
@@ -3567,13 +3712,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 96.52 67.31)
+			(xy 99.06 46.99) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cf3126d-f545-4ed9-b109-05bc13cfc06d")
+		(uuid "199e9f63-6990-4ef1-b24e-08878dd18c31")
 	)
 	(wire
 		(pts
@@ -3674,6 +3819,16 @@
 			(type default)
 		)
 		(uuid "45fb25f5-6298-4b60-9a84-2286250f3416")
+	)
+	(wire
+		(pts
+			(xy 19.05 111.76) (xy 24.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4673285e-9bc9-4970-86e3-7eeac5f10161")
 	)
 	(wire
 		(pts
@@ -3787,6 +3942,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 71.12) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a47b22-f86d-4ad6-ac49-a20badbc5975")
+	)
+	(wire
+		(pts
 			(xy 134.62 60.96) (xy 134.62 58.42)
 		)
 		(stroke
@@ -3874,6 +4039,26 @@
 			(type default)
 		)
 		(uuid "7f1929aa-0d81-473a-a61a-05af3977fd42")
+	)
+	(wire
+		(pts
+			(xy 115.57 43.18) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808c6be0-8575-4675-ab34-ea77dd743277")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82066017-041f-456e-a9fd-12f703c0b4dc")
 	)
 	(wire
 		(pts
@@ -4007,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 38.1) (xy 118.11 34.29)
+			(xy 118.11 34.29) (xy 118.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4024,16 +4209,6 @@
 			(type default)
 		)
 		(uuid "b7b5b2dc-f27e-4797-b250-9441f2eb5d80")
-	)
-	(wire
-		(pts
-			(xy 118.11 38.1) (xy 115.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babe36df-d414-4041-9982-6f9f4f32296b")
 	)
 	(wire
 		(pts
@@ -4127,16 +4302,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 118.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de37099f-c901-4984-9127-859861db6d67")
-	)
-	(wire
-		(pts
 			(xy 137.16 60.96) (xy 140.97 60.96)
 		)
 		(stroke
@@ -4187,6 +4352,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f460e3-1b9b-4746-87d7-6e6ba307822a")
+	)
+	(wire
+		(pts
 			(xy 134.62 58.42) (xy 140.97 58.42)
 		)
 		(stroke
@@ -4194,6 +4369,16 @@
 			(type default)
 		)
 		(uuid "f464e969-a0c9-4643-8fe4-5b2375e32d60")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04) (xy 66.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46c0972-78a7-4716-b815-c6bb338f1803")
 	)
 	(wire
 		(pts
@@ -4217,13 +4402,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 66.04) (xy 81.28 66.04)
+			(xy 19.05 106.68) (xy 24.13 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff3eca3b-e61d-4fc0-977e-999c4d4bfb6f")
+		(uuid "feddd3d0-805a-4dd9-9370-2eb04b3ec67f")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
@@ -4237,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01adb8d8-116b-4dee-9a39-7c1c3239c53a")
-		(property "Reference" "10uF"
+		(property "Reference" "C3"
 			(at 26.67 107.4038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_Small"
+		(property "Value" "10uF"
 			(at 26.67 109.9438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 24.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4486,7 @@
 		(instances
 			(project "dmx"
 				(path "/0e0f0d96-2a5a-49bd-b8e1-885ec5fc8e6b"
-					(reference "10uF")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4458,6 +4643,83 @@
 			(project "dmx"
 				(path "/0e0f0d96-2a5a-49bd-b8e1-885ec5fc8e6b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 19.05 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bd7363e-aa87-4da0-b821-01035ec881bb")
+		(property "Reference" "#FLG02"
+			(at 19.05 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 17.526 114.046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+			(at 19.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 19.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66c52ced-92b2-4818-a2e1-ca725df6ba97")
+		)
+		(instances
+			(project "dmx"
+				(path "/0e0f0d96-2a5a-49bd-b8e1-885ec5fc8e6b"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 104.14 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -4809,7 +5071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 23.8252 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4889,7 +5151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 111.76 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -4970,7 +5232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 91.948 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5051,7 +5313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 89.408 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5286,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 92.71 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 146.05 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6048,7 +6310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6303,7 +6565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 69.5452 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6384,7 +6646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 117.348 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -6543,7 +6805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRBlack"
 			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6636,7 +6898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 123.698 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -6757,6 +7019,83 @@
 			(project "dmx"
 				(path "/0e0f0d96-2a5a-49bd-b8e1-885ec5fc8e6b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 19.05 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd9ed698-42de-407b-b3ed-72bfc265e462")
+		(property "Reference" "#FLG01"
+			(at 19.05 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 17.272 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+			(at 19.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 19.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e471ca54-d291-4ba6-83c2-b368462b047b")
+		)
+		(instances
+			(project "dmx"
+				(path "/0e0f0d96-2a5a-49bd-b8e1-885ec5fc8e6b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6905,7 +7244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 102.87 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -6984,7 +7323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 116.84 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7066,7 +7405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 118.11 29.21 0)
 			(hide yes)
 			(show_name no)
